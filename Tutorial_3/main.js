@@ -1,10 +1,7 @@
-// Main for tutorial 2
-// Game.spawns['Spawn1'].spawnCreep([WORK, CARRY, CARRY, MOVE, MOVE], Game.time, {memory: {working: false, role: 'harvester'}});
-// Game.spawns['Spawn1'].spawnCreep([WORK, CARRY, CARRY, MOVE, MOVE], Game.time, {memory: {working: false, role: 'worker'}});
-
+// Main for tutorial 3
 const roles = {
-    harvester: require('./Tutorial_2/HarvesterManager'),
-    worker: require('./Tutorial_2/WorkerManager'),
+    harvester: require('./Tutorial_3/HarvesterManager'),
+    worker: require('./Tutorial_3/WorkerManager'),
 }
 
 module.exports.loop = function () {
